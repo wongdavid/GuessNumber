@@ -1,4 +1,4 @@
-class Compare:
+class Compare():
 	def compare(self,listA,listB):
 		a=0
 		b=0
@@ -20,6 +20,6 @@ if __name__ == "__main__":
 	lia = [1,2,3,4]
 	lib = [2,3,4,5]
 	c = Compare()	
-	print c.compare(lia,lib)
-	print c.result([1,3])
+	print(c.compare(lia,lib))
+	print(c.result([1,3]))
 				
